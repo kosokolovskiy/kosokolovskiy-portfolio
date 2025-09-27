@@ -1,11 +1,22 @@
 # kosokolovskiy-portfolio
-Portfolio hub: concise snapshots of each project with links to source code and live demos—Tutor Streamlit (homework &amp; analytics), AWS Terraform IaC, Telegram bots, and more. Clear docs, quickstarts, and architecture notes
+
+Portfolio hub: concise snapshots of each project with links to source code and live demos—Tutor Streamlit (homework & analytics), AWS Terraform IaC, Telegram bots, and more. Clear docs, quickstarts, and architecture notes.
+
+---
+
+## 📑 Contents
+- [kosokolovskiy-portfolio](#kosokolovskiy-portfolio)
+  - [📑 Contents](#-contents)
+    - [Tutor Streamlit for Students](#tutor-streamlit-for-students)
+    - [Tutor Working Bot (Telegram)](#tutor-working-bot-telegram)
+    - [Hub Infrastructure (AWS + Terraform)](#hub-infrastructure-aws--terraform)
+  - [Coming Soon](#coming-soon)
 
 ---
 
 ### Tutor Streamlit for Students
 
-A web platform for assigning homework, tracking progress, and visualizing student stats. RBAC-powered (Admin/Student/Demo) with sections for Homework, Informatics, Mathematics, Variants, and per-student/overall statistics. Optional AI checks/explanations.
+A **web platform** for assigning homework, tracking progress, and visualizing student stats. RBAC-powered (Admin/Student/Demo) with sections for Homework, Informatics, Mathematics, Variants, and per-student/overall statistics. Optional AI checks/explanations.
 
 **Highlights**
 - Role-based menus & permissions (RBAC)
@@ -47,7 +58,7 @@ Python, python-telegram-bot/aiogram, MySQL, MongoDB, GitHub Actions, EC2, system
 
 **Links**
 - Code: https://github.com/kosokolovskiy/tutor_working_bot/tree/dev  
-- Docs: https://github.com/kosokolovskiy/tutor_working_bot/tree/dev#readme
+- Docs: https://github.com/kosokolovskiy/tutor_working_bot/tree/dev#readme  
 
 ---
 
@@ -74,4 +85,10 @@ Terraform, AWS (EC2, RDS, S3, CloudFront, IAM, SGs)
 
 **Links**
 - Code: https://github.com/kosokolovskiy/hub_infrastructure  
-- Docs: https://github.com/kosokolovskiy/hub_infrastructure#readme
+- Docs: https://github.com/kosokolovskiy/hub_infrastructure#readme  
+
+---
+
+## Coming Soon
+
+New projects is already ready and links will be added shortly 🚀
