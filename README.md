@@ -1,11 +1,24 @@
-# kosokolovskiy-portfolio
+# 🌐 kosokolovskiy-portfolio
+
+Welcome to my **personal portfolio hub** 🎯  
+Here I collect concise snapshots of my projects—ranging from **data engineering pipelines and Terraform infrastructure** to **Streamlit apps and Telegram bots**.  
+
+Each project comes with:
+- 📂 clear docs  
+- ⚡ quickstart guides  
+- 🏗️ architecture notes  
+- 🔗 direct links to code and demos  
+
+💡 Current focus: **Databricks, Machine Learning, and Infrastructure-as-Code (IaC)** for scalable, production-ready data platforms.
+
+---
 
 Portfolio hub: concise snapshots of each project with links to source code and live demos—Tutor Streamlit (homework & analytics), AWS Terraform IaC, Telegram bots, and more. Clear docs, quickstarts, and architecture notes.
 
 ---
 
 ## 📑 Contents
-- [kosokolovskiy-portfolio](#kosokolovskiy-portfolio)
+- [🌐 kosokolovskiy-portfolio](#-kosokolovskiy-portfolio)
   - [📑 Contents](#-contents)
     - [Tutor Streamlit for Students](#tutor-streamlit-for-students)
     - [Tutor Working Bot (Telegram)](#tutor-working-bot-telegram)
