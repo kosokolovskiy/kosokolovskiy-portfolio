@@ -51,3 +51,27 @@ Python, python-telegram-bot/aiogram, MySQL, MongoDB, GitHub Actions, EC2, system
 
 ---
 
+### Hub Infrastructure (AWS + Terraform)
+
+An **imported Terraform project** for managing existing AWS resources of the Hub platform.  
+The setup ensures structure, consistency, and best practices—while keeping **all current resources intact** (no recreation).
+
+**Highlights**
+- EC2 (Ubuntu 22.04, `t3.nano`) with Elastic IP `3.67.163.253`  
+- RDS MySQL (8.0.42, `db.t3.micro`, 20 GB, 7-day backups)  
+- S3 buckets: `kosokolovsky-bucket-svgs`, `lambda-layers-kosokolovskiy`  
+- Security groups restricted by CloudFront prefix list  
+- Imported state from legacy infra—now codified and maintainable
+
+**How it works**
+- Uses `terraform import` to bind existing AWS resources  
+- Common tags for ownership and environment tracking  
+- Separate modules for compute, networking, database, and storage  
+- Identical environments: dev / staging / prod  
+
+**Tech**
+Terraform, AWS (EC2, RDS, S3, CloudFront, IAM, SGs)  
+
+**Links**
+- Code: https://github.com/kosokolovskiy/hub_infrastructure  
+- Docs: https://github.com/kosokolovskiy/hub_infrastructure#readme
