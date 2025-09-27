@@ -23,3 +23,31 @@ Terraform for IaC
 **Links**
 - Code: https://github.com/kosokolovskiy/tutor_streamlit_main  
 - Docs: https://github.com/kosokolovskiy/tutor_streamlit_main#readme  
+
+---
+
+### Tutor Working Bot (Telegram)
+
+An **extension to the Tutor Streamlit platform** designed for everyday convenience and better service. The bot gives students and tutors a fast, chat-first way to manage homework: real-time reminders, quick status checks, and simple admin actions—without opening the website.
+
+**Highlights**
+- Student commands: `/todo`, `/progress`, `/status`
+- Admin: `/hw_echo <user>` to refresh cached data
+- MySQL for structured data; MongoDB for logs/history
+- Query caching to reduce DB load; multi-student support
+- CI/CD to EC2 with systemd auto-restart
+
+**How it works**
+- Reads secure `creds.ini` at deploy time (never committed)
+- Homework/progress in MySQL; logs/diffs/cache events in MongoDB
+- Admin can rebuild cache; students read from cache for snappy replies
+
+**Tech**
+Python, python-telegram-bot/aiogram, MySQL, MongoDB, GitHub Actions, EC2, systemd
+
+**Links**
+- Code: https://github.com/kosokolovskiy/tutor_working_bot/tree/dev  
+- Docs: https://github.com/kosokolovskiy/tutor_working_bot/tree/dev#readme
+
+---
+
