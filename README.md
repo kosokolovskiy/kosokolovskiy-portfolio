@@ -97,8 +97,8 @@ The setup ensures structure, consistency, and best practices—while keeping **a
 Terraform, AWS (EC2, RDS, S3, CloudFront, IAM, SGs)  
 
 **Links**
-- Code: https://github.com/kosokolovskiy/hub_infrastructure  
-- Docs: https://github.com/kosokolovskiy/hub_infrastructure#readme  
+- Code: https://github.com/kosokolovskiy/tutor_streamlit_IaC  
+- Docs: https://github.com/kosokolovskiy/tutor_streamlit_IaC#readme  
 
 ---
 
