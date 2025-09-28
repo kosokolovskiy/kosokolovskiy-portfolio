@@ -36,7 +36,7 @@ Built on **dbt**, **Databricks Lakehouse**, and **Apache Spark**, it processes r
 **Highlights**
 - Incremental delta processing for large datasets  
 - Fact & dimension modeling with dbt  
-- Data quality & freshness tests  
+- Data quality & freshness tests  `
 - Automated error handling with AI-powered logic  
 - Deployment-ready with Databricks asset bundles  
 
